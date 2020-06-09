@@ -3,9 +3,14 @@
 Reads csv files exported from Google Play Music takeout and prints your most
 listened songs sorted by play count.
 
-## Usage
+## Usage (release build)
 
 - https://www.rust-lang.org/learn/get-started
 - clone this repo somewhere
-- `cargo run`
+- `cargo build --release`
+- `./target/release/parse/gmusic-csv <dir>` where `<dir>` contains the csv
+  files you want to parse
 
+## Development
+
+- `cargo run`
