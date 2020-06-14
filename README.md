@@ -7,9 +7,7 @@ listened songs sorted by play count.
 
 - https://www.rust-lang.org/learn/get-started
 - clone this repo somewhere
-- `cargo build --release`
-- `./target/release/parse/gmusic-csv <dir>` where `<dir>` contains the csv
-  files you want to parse
+- `cargo run --release -- <dir>`  where `<dir>` contains the csv files you want to parse
 
 ## Development
 
